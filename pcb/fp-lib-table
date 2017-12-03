@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pcie-mini-bridge-special)(type KiCad)(uri "$(KIPRJMOD)/pcie-mini-bridge-special.pretty")(options "")(descr ""))
+)
