@@ -130,46 +130,46 @@ $EndComp
 $Comp
 L R_Small R1
 U 1 1 5A19B2A1
-P 3900 3100
-F 0 "R1" H 3930 3120 50  0000 L CNN
-F 1 "1k" H 3930 3060 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 3900 3100 50  0001 C CNN
-F 3 "" H 3900 3100 50  0001 C CNN
-	1    3900 3100
+P 3900 2500
+F 0 "R1" H 3930 2520 50  0000 L CNN
+F 1 "1k" H 3930 2460 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 3900 2500 50  0001 C CNN
+F 3 "" H 3900 2500 50  0001 C CNN
+	1    3900 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x02 J1
 U 1 1 5A19B2EB
-P 2200 6100
-F 0 "J1" H 2200 6200 50  0000 C CNN
-F 1 "Conn_01x02" H 2200 5900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2200 6100 50  0001 C CNN
-F 3 "" H 2200 6100 50  0001 C CNN
-	1    2200 6100
-	1    0    0    -1  
+P 2200 6200
+F 0 "J1" H 2200 6300 50  0000 C CNN
+F 1 "Conn_01x02" H 2200 6000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2200 6200 50  0001 C CNN
+F 3 "" H 2200 6200 50  0001 C CNN
+	1    2200 6200
+	1    0    0    1   
 $EndComp
 $Comp
 L Conn_01x02 J3
 U 1 1 5A19B340
-P 3200 6100
-F 0 "J3" H 3200 6200 50  0000 C CNN
-F 1 "Conn_01x02" H 3200 5900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3200 6100 50  0001 C CNN
-F 3 "" H 3200 6100 50  0001 C CNN
-	1    3200 6100
-	1    0    0    -1  
+P 3200 6200
+F 0 "J3" H 3200 6300 50  0000 C CNN
+F 1 "Conn_01x02" H 3200 6000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3200 6200 50  0001 C CNN
+F 3 "" H 3200 6200 50  0001 C CNN
+	1    3200 6200
+	1    0    0    1   
 $EndComp
 $Comp
 L Conn_01x02 J4
 U 1 1 5A19B377
-P 4200 6100
-F 0 "J4" H 4200 6200 50  0000 C CNN
-F 1 "Conn_01x02" H 4200 5900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4200 6100 50  0001 C CNN
-F 3 "" H 4200 6100 50  0001 C CNN
-	1    4200 6100
-	1    0    0    -1  
+P 4200 6200
+F 0 "J4" H 4200 6300 50  0000 C CNN
+F 1 "Conn_01x02" H 4200 6000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4200 6200 50  0001 C CNN
+F 3 "" H 4200 6200 50  0001 C CNN
+	1    4200 6200
+	1    0    0    1   
 $EndComp
 $Comp
 L +12V #PWR06
@@ -205,17 +205,15 @@ F 3 "" H 2800 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 2400 3700 2400
+	2900 3000 3700 3000
 Wire Wire Line
-	2900 2500 3700 2500
-Text Label 3700 2500 2    60   ~ 0
+	2900 3100 3700 3100
+Text Label 3700 3100 2    60   ~ 0
 PE_T0-
-Text Label 3700 2400 2    60   ~ 0
+Text Label 3700 3000 2    60   ~ 0
 PE_T0+
-Wire Wire Line
-	2900 1700 4100 1700
-NoConn ~ 2900 1600
-Text Label 4100 1700 2    60   ~ 0
+NoConn ~ 2900 1700
+Text Label 4100 1600 2    60   ~ 0
 PE_3V3_AUX
 Text Label 4350 5900 2    60   ~ 0
 PE_3V3_AUX
@@ -231,56 +229,54 @@ F 3 "" H 3800 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 2700 3700 2700
+	2900 3300 3700 3300
 Wire Wire Line
-	3700 2800 2900 2800
-Text Label 3700 2800 2    60   ~ 0
+	3700 3400 2900 3400
+Text Label 3700 3400 2    60   ~ 0
 PE_R0-
-Text Label 3700 2700 2    60   ~ 0
+Text Label 3700 3300 2    60   ~ 0
 PE_R0+
 Wire Wire Line
-	2900 3000 3700 3000
+	2900 2400 3700 2400
 Wire Wire Line
-	3700 3100 2900 3100
-Text Label 3700 3300 2    60   ~ 0
+	3700 2500 2900 2500
+Text Label 3700 2700 2    60   ~ 0
 PE_PRSNT1#
-Text Label 3700 3100 2    60   ~ 0
+Text Label 3700 2500 2    60   ~ 0
 PERST#
 Wire Wire Line
-	2900 3300 3700 3300
-Text Label 3700 3000 2    60   ~ 0
+	2900 2700 3700 2700
+Text Label 3700 2400 2    60   ~ 0
 PE_PRSNT2#
-Text Label 3700 3400 2    60   ~ 0
+Text Label 3700 2800 2    60   ~ 0
 BRIDGE_EN
 $Comp
 L R R3
 U 1 1 5A19B690
-P 4250 3300
-F 0 "R3" V 4330 3300 50  0000 C CNN
-F 1 "0" V 4250 3300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4180 3300 50  0001 C CNN
-F 3 "" H 4250 3300 50  0001 C CNN
-	1    4250 3300
+P 4250 2700
+F 0 "R3" V 4330 2700 50  0000 C CNN
+F 1 "0" V 4250 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4180 2700 50  0001 C CNN
+F 3 "" H 4250 2700 50  0001 C CNN
+	1    4250 2700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3900 3200 3900 3500
-Connection ~ 3900 3400
-Wire Wire Line
-	4400 3300 5100 3300
-Text Label 5100 3300 2    60   ~ 0
+	3900 2600 3900 2900
+Connection ~ 3900 2800
+Text Label 5100 2700 2    60   ~ 0
 PE_WAKE#
-Text Label 3700 2000 2    60   ~ 0
+Text Label 3700 1900 2    60   ~ 0
 PE_REFCLK-
 $Comp
 L R_Small R2
 U 1 1 5A19B974
-P 3900 3600
-F 0 "R2" H 3930 3620 50  0000 L CNN
-F 1 "1k" H 3930 3560 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 3900 3600 50  0001 C CNN
-F 3 "" H 3900 3600 50  0001 C CNN
-	1    3900 3600
+P 3900 3000
+F 0 "R2" H 3930 3020 50  0000 L CNN
+F 1 "1k" H 3930 2960 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 3900 3000 50  0001 C CNN
+F 3 "" H 3900 3000 50  0001 C CNN
+	1    3900 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -295,11 +291,11 @@ F 3 "" H 3900 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 3400 2900 3400
+	3900 2800 2900 2800
 Wire Wire Line
-	4100 3300 3900 3300
-Connection ~ 3900 3300
-Text Notes 4100 3100 0    60   ~ 0
+	4100 2700 3900 2700
+Connection ~ 3900 2700
+Text Notes 4100 2500 0    60   ~ 0
 Send < 2V Vcomm in\ncase host side is USB.
 $Comp
 L TPS2594xx U1
@@ -732,7 +728,7 @@ Wire Wire Line
 	9500 5200 9400 5200
 Connection ~ 9500 4500
 Wire Wire Line
-	3900 4300 3900 3700
+	3900 3100 3900 4300
 Wire Wire Line
 	3800 6400 3800 6200
 Wire Wire Line
@@ -813,14 +809,44 @@ Wire Wire Line
 Text Notes 1750 5600 0    60   ~ 0
 Debug Power
 Wire Wire Line
-	2900 2000 3700 2000
+	2900 1900 3700 1900
 Wire Wire Line
-	2900 2200 3700 2200
-Text Label 3700 2200 2    60   ~ 0
+	2900 2100 3700 2100
+Text Label 3700 2100 2    60   ~ 0
 PE_REFCLK+
-NoConn ~ 2900 1900
-NoConn ~ 2900 2100
+NoConn ~ 2900 2000
+NoConn ~ 2900 2200
+Text Notes 4100 1200 0    60   ~ 0
+Mates flipped (CC2->CC1)\nto ease layout.
 Wire Wire Line
-	3900 3000 3900 1700
-Connection ~ 3900 1700
+	4100 1600 2900 1600
+Connection ~ 3900 1600
+Wire Wire Line
+	5100 2700 4400 2700
+Wire Wire Line
+	3900 2400 3900 1600
+$Comp
+L hole H1
+U 1 1 5A28E95E
+P 2000 7200
+F 0 "H1" H 2000 7450 60  0000 C CNN
+F 1 "hole" H 2000 6950 60  0000 C CNN
+F 2 "pcie-mini-bridge-special:hole-m3" H 2000 7200 60  0001 C CNN
+F 3 "" H 2000 7200 60  0000 C CNN
+	1    2000 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H2
+U 1 1 5A28EAB6
+P 3000 7200
+F 0 "H2" H 3000 7450 60  0000 C CNN
+F 1 "hole" H 3000 6950 60  0000 C CNN
+F 2 "pcie-mini-bridge-special:hole-m3" H 3000 7200 60  0001 C CNN
+F 3 "" H 3000 7200 60  0000 C CNN
+	1    3000 7200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3200 7200
+NoConn ~ 2200 7200
 $EndSCHEMATC

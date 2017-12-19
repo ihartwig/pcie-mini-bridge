@@ -85,4 +85,18 @@ X IMON 19 700 -500 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# hole
+#
+DEF hole H 0 40 Y Y 1 F N
+F0 "H" 0 250 60 H V C CNN
+F1 "hole" 0 -250 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 100 0 1 0 N
+X ~ 1 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
